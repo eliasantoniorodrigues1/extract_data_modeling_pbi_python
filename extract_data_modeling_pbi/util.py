@@ -61,7 +61,7 @@ def envia_email(to, subject, messsage, filename=None, imagem=None, frm=None, hos
     msg = MIMEMultipart()
     msg['from'] = frm
     msg['to'] = to
-    msg['cc'] = 'aecrhpontomatriz@aec.com.br;aec.uipath@aec.com.br'
+    msg['cc'] = 'xxx@xxx.com.br'
     msg['subject'] = subject
 
     with open(os.path.join(LOG_DIR, filename), 'r') as file:
